@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="16dp"
+    tools:layout_editor_absoluteY="16dp">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="330dp"
+        android:layout_height="95dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginStart="11dp"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/userName"
+            android:layout_alignLeft="@+id/userName"
+            android:layout_alignStart="@+id/userName"
+            android:layout_marginBottom="12dp"
+            android:text="User Name:"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="184dp" />
+
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="325dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/textinput"
+            android:drawableLeft="@drawable/ic_action_user"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="216dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="123dp"
+            android:layout_height="123dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/logo"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="21dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView"
+            android:layout_marginBottom="38dp"
+            android:layout_marginStart="12dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:layout_weight="1"
+            android:text="BiteME"
+            android:textAlignment="viewStart"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="147dp"
+            tools:layout_editor_absoluteY="51dp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="148dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="69dp"
+        android:layout_marginStart="102dp"
+        android:background="@drawable/bg_selector"
+        android:onClick="login"
+        android:text="CREATE ACCOUNT"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="322dp"
+        android:layout_height="95dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/submitBtn"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <EditText
+            android:id="@+id/userPass"
+            android:layout_width="325dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="11dp"
+            android:background="@drawable/textinput"
+            android:drawableLeft="@drawable/ic_action_pass"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="325dp" />
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/userPass"
+            android:layout_alignLeft="@+id/userPass"
+            android:layout_alignStart="@+id/userPass"
+            android:layout_marginBottom="12dp"
+            android:text="Password:"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="294dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="63dp"
+        android:text="BiteME is a social network that helps people that like to connect with others while eating."
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout6" />
+
+</android.support.constraint.ConstraintLayout>
