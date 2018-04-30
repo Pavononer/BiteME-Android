@@ -26,11 +26,12 @@ BiteME is a social network that helps people that like to connect with others wh
 
 
 ### Meet with someone
-
+<p align="center">
 <img align="center" src="https://user-images.githubusercontent.com/38864198/39441692-5cac3454-4c74-11e8-853a-7148008feeea.png" width="300" height="534">
-
+</p>
 
 ### Notifications
-
-<img align="center" src="https://user-images.githubusercontent.com/38864198/39441694-5ccc0478-4c74-11e8-848a-bbad0127ade3.png" width="300" height="534">
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/38864198/39441694-5ccc0478-4c74-11e8-848a-bbad0127ade3.png" width="300" height="534">
+</p>
 
