@@ -5,7 +5,7 @@ Captures
 
 Permissions
 
-<img src="https://user-images.githubusercontent.com/38864198/39441640-39e6c8f8-4c74-11e8-9897-12cc76c56618.png" width="300" height="800">
+<img src="https://user-images.githubusercontent.com/38864198/39441640-39e6c8f8-4c74-11e8-9897-12cc76c56618.png" width="300" height="534">
 ![erdplus-diagram](https://user-images.githubusercontent.com/38864198/39441640-39e6c8f8-4c74-11e8-9897-12cc76c56618.png){:height="700px" width="400px"}
 ![erdplus-diagram](https://user-images.githubusercontent.com/38864198/39441683-5c37cc5e-4c74-11e8-9a1f-54c1bafd945b.png)
 
